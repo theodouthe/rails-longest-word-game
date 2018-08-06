@@ -1,0 +1,27 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.game-choice {
+  display: flex;
+  justify-content: center;
+}
+
+.letter {
+  background-color: #5097D6;
+  color: white;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: center;
+  box-shadow: 2px 2px #b2d7f7;
+}
+
+form {
+  display: flex;
+  justify-content:  center;
+}
+
+#word-input {
+  length: 200px;
+}
